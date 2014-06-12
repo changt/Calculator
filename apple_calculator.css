@@ -1,0 +1,76 @@
+#output{    
+    height: 100px;
+    width: 380px ;
+    background-color:#F0FBC8;
+    margin-left :auto;
+    margin-right:auto;
+    border: 4px inset;
+    box-shadow:0px 1px 6px 0px #A1A783 inset;
+    margin-bottom:15px;
+    border-radius:15px;
+
+    
+}
+#output_text{
+    margin-top: 4pt;
+    text-indent: 140px;
+    font-size:1.8em;
+    font-family:monaco;
+    font-weight: bold;
+}
+
+#main{
+    width:427px;
+    background:linear-gradient(#DBDBDB,#ACACAC);
+}
+#buttons{
+    margin-left:14px;
+}
+#placeholder{   /*adds space before the output box*/
+    height:8px;
+}
+
+
+.regular{
+    height:55px;
+    width:95px;
+    margin-bottom:11px;
+
+}
+.regular,.equals,.zero{ /*styles the buttons */
+    border-radius:15px;
+    font-size:1.6em;
+    font-family:Helvetica;  /*Thordis Sans EF SemiBold SC is the real font, but costs money */
+    font-weight:600;
+    border: 0.5px inset;
+    border-color:#606060;
+    box-shadow:0px -1.5px 1.5px 1.5px #DDDDDD inset, 0px -2px 2px 3.1px #404040 inset, 0px 5px 2px 1px white inset;
+    background: linear-gradient( #EBEBEB, #CECECE);
+}
+
+.regular:hover, .equals:hover, .zero:hover{
+    background: linear-gradient( #EFEFEF, #DDDDDD)
+}
+.regular:active, .equals:active, .zero:active{
+    box-shadow:0px -1.5px 1.5px 1.5px #DDDDDD inset, 0px -2px 4px 4px black inset;
+    background: linear-gradient( #CCCCCC, #BABABA);
+    font-size:1.58em;
+}
+/*styles particular buttons*/
+#division{
+    font-family:times new roman;    
+    font-weight:bold;
+}
+.equals{
+    height:120px;
+    width:95px;
+    vertical-align:top;
+    float:right;
+    margin-right: 9px;
+    padding-top:77px;
+}
+.zero{
+    height:55px;
+    width:197px;
+}
+
